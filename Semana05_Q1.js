@@ -7,10 +7,10 @@ function myFunction() {
     quantidade++ 
   
   
-    let LI = document.createElement("LI"); 
+    let LInova = document.createElement("LI"); 
     let listas = document.createTextNode(`${texto} ${quantidade}`);
-    LI.appendChild(listas);
-    document.getElementById("myList").appendChild(LI);
+    LInova.appendChild(listas);
+    document.getElementById("myList").appendChild(LInova);
 };
 
 
