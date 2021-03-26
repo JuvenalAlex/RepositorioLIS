@@ -14,6 +14,6 @@ function myFunction() {
 };
 
 
-for (let i = 0; i < numeroLista; i++){
+for (let i = 1; i < numeroLista; i++){
     myFunction();
 };
